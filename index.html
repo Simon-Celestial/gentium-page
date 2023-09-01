@@ -15,7 +15,7 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-<div class="site-wrapper">
+<div class="site-wrapper" id="homeAnchor">
     <div class="site-dark-container">
         <header class="site-header">
             <nav class="navigation-block">
@@ -26,32 +26,32 @@
                 </div>
                 <div class="navigation-items-container">
                     <div class="navigation-item navigation-active navigation-hover">
-                        <a href="">Home
+                        <a href="#homeAnchor">Home
                         </a>
                     </div>
                     <div class="navigation-item navigation-hover">
-                        <a href="">Services
+                        <a href="#servicesAnchor">Services
                         </a>
                     </div>
                     <div class="navigation-item navigation-hover">
-                        <a href="">Works
+                        <a href="#worksAnchor">Works
                         </a>
                     </div>
                     <div class="navigation-item navigation-hover">
-                        <a href="">About
+                        <a href="#aboutAnchor">About
                         </a>
                     </div>
                     <div class="navigation-item navigation-hover">
-                        <a href="">Client
+                        <a href="#clientAnchor">Client
                         </a>
                     </div>
 
                     <div class="navigation-item navigation-hover">
-                        <a href="">Blog
+                        <a href="#blogAnchor">Blog
                         </a>
                     </div>
                     <div class="navigation-item navigation-hover">
-                        <a href="">Contact
+                        <a href="#contactAnchor">Contact
                         </a>
                     </div>
                     <div class="navigation-item">
@@ -67,7 +67,9 @@
                     <a href="">
                         <div class="start-wrapper">
                             <div class="start-button-filler"></div>
-                            <p>Getting Started</p>
+                            <a href="#servicesAnchor">
+                                <p>Getting Started</p>
+                            </a>
                         </div>
                     </a>
                 </div>
@@ -113,7 +115,7 @@
         </main>
     </div>
     <div class="gray-background">
-        <div class="services-wrapper">
+        <div class="services-wrapper" id="servicesAnchor">
             <div class="services-title">
                 <h2>Services.</h2>
                 <p>WE WORK WITH YOU, NOT FOR YOU</p>
@@ -185,7 +187,7 @@
 
             </div>
         </div>
-        <div class="works-container-wrapper">
+        <div class="works-container-wrapper" id="worksAnchor">
             <div class="works-title">
                 <div class="works-title-block">
                     <span></span>
@@ -235,7 +237,7 @@
                 </div>
             </div>
         </div>
-        <div class="about-container-wrapper">
+        <div class="about-container-wrapper" id="aboutAnchor">
             <div class="about-title">
                 <div class="about-title-item">
                     <h2>About.</h2>
@@ -281,13 +283,155 @@
                 </div>
                 <div class="about-text-items">
                     <h2>How we work</h2>
-                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
+                    <p>Capitalize on low-hanging fruit to identify a ballpark value added activity to beta test.
                         Override the digital divide with additional clickthroughs from DevOps.</p>
 
                 </div>
             </div>
         </div>
+        <div class="clients-wrapper" id="clientAnchor">
+            <div class="clients-container">
+                <div class="clients-block">
+                    <div class="client-block-background"></div>
+                    <div class="clients-red-decoration"></div>
+                </div>
+                <div class="clients-block">
+                    <span></span>
+                    <h2>What Clients Say.</h2>
+                    <h2>WE'RE MORE THAN A DIGITAL AGENCY</h2>
+                    <p>We are motivated by the satisfaction of our clients. Put your trust in us and share in our growth
+                        Asset Management is made up of a team of expert, committed and experienced people with a passion
+                        for financial markets. Our goal is to achieve continuous and sustainable growth of our
+                        clients.</p>
+                    <span></span>
+                    <b>ARON SMITH, UX DESIGNER</b>
+                </div>
+            </div>
+        </div>
+        <div class="companies-wrapper">
+            <div class="companies-container">
+                <img src="./src/images/noreal.png" alt="noreal">
+                <img src="./src/images/norton.png" alt="norton">
+                <img src="./src/images/vorbes.png" alt="vorbes">
+                <img src="./src/images/friday.png" alt="friday">
+                <img src="./src/images/pantheon.png" alt="pantheon">
+                <img src="./src/images/horus.png" alt="horus">
+
+            </div>
+        </div>
+        <div class="news-wrapper" id="blogAnchor">
+            <div class="news-container">
+                <div class="news-title">
+                    <h2>Latest News.</h2>
+                    <p>CHECK OUT SOME OF OUR THINKING</p>
+                </div>
+                <div class="news-images-wrapper">
+                    <div class="news-images-navigation">
+                        <div class="navigation-circle circle-active"></div>
+                        <div class="navigation-circle"></div>
+                        <div class="navigation-circle"></div>
+                        <div class="navigation-circle"></div>
+                        <div class="navigation-circle"></div>
+                        <div class="navigation-circle"></div>
+                    </div>
+                    <div class="news-scale-container">
+                        <div class="news-images-title">
+                            <h2>CAREERS / MARKETING</h2>
+                            <p>How to become the best sale marketer in a year</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="news-images-item">
+                        </div>
+                    </div>
+                    <div class="news-scale-container">
+                        <div class="news-images-title">
+                            <h2>CAREERS</h2>
+                            <p>Wining tactics for a new digital agency</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="news-images-item">
+                        </div>
+                    </div>
+                    <div class="news-scale-container">
+                        <div class="news-images-title">
+                            <h2>DESING / UX</h2>
+                            <p>How to drive your customer experience</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="news-images-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-feedback-wrapper" id="contactAnchor">
+            <div class="feedback-content">
+                <div class="feedback-item">
+                    <div class="pink-circle">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="pink-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="pink-circle">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="pink-circle">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+                <div class="feedback-item">
+                    <h2>Let's Talk?</h2>
+                </div>
+                <div class="feedback-item">
+                    <div class="equiry-button">
+                        <p>Make an enquiry!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="company-numbers">
+            <div class="company-numbers-item">
+                <div class="number-hover-block">
+                    <h2>Berlin.</h2>
+                    <p>+21 30 310 0010</p>
+                </div>
+            </div>
+            <div class="company-numbers-item">
+                <div class="number-hover-block">
+                    <h2>Melbourne.</h2>
+                    <p>+21 201 161 0011</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="copyright-block">
+                <p>2018 © <a href="">Gentium</a>, All rights reserved.</p>
+            </div>
+            <div class="footer-rules-block">
+                <div class="rules-item">
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.site-header');
+            if (window.scrollY > 300) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+
+            }
+        });
+    });
+</script>
+
 </html>
